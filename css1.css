@@ -1,0 +1,25 @@
+body {
+background-image: url("background.png");
+}
+
+#wrap {text-align: center;width: 75%;height: 
+	  400px;margin: 0 auto;border-style: solid;border-width;
+	  1px;position: relative; style="width:750px;height:90px;"} 
+	  
+#A1	{text-align: center;width: 25%;height:
+	  300px;margin: 0 auto;border-style: solid;border-width;
+	  1px;position: absolute;}
+#A2 {text-align: center;width: 25%;height: 
+	  300px;margin: 0 auto;border-style: solid;border-width;
+	  1px;position: absolute;left:35%;}
+      
+#A3 {text-align: center;width: 75%;height:
+	  300px;margin: -30 auto;border-style: solid;border-width;
+	  1px;position: absolute;left:150.6%;}
+	  background="background.jpg" alt="scap background"
+	  
+#video {text-align center;}
+
+
+		 
+.video{height: 500px; margin: auto;}

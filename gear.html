@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> the rules of football</title>
+	<link rel="stylesheet" type="text/css" href="http://www.albany.edu/~kc659252/fp.css">
+<style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
+<script src="fp.js"> </script>  
+	</head>
+
+	<body onLoad="show_clock()">
+					
+	<div class="title">
+		<img src="fpbanner.png" alt="webpage banner" style="width:650px;height:90px;" />
+	</div>
+	
+	<div class="outer">
+			        <h2> History</h2>
+			<div class="divforpic">
+			
+			
+		<div class="innerouter"> 
+			
+			</div>
+			<div class="infodiv2">
+		
+		
+				<div class="other links"> 
+					<h2> Where to NEXT! </h2>
+					<p  title="PLAY BALL!"><a href="http://www.albany.edu/~kc659252/homepage.html">HOMEPAGE</a></p>
+					<p title="The Beginning"><a href="http://www.albany.edu/~kc659252/history.html">HISTORY</a></p>
+					<p title="How To Play"><a href="http://www.albany.edu/~kc659252/rules.html">RULES TO THE TURF</a></p>
+					<p title="The Game Effect"><a href="http://www.albany.edu/~kc659252/current.html">FOOTBALL IN 2017</a></p>
+                        
+                        <script language="javascript" src="liveclock.js">
+
+/*
+Live Clock Script-
+By Mark Plachetta (astro@bigpond.net.au(c)) based on code from DynamicDrive.com
+For full source code, 100's more DHTML scripts, and Terms Of Use,
+visit http://www.dynamicdrive.com
+*/
+
+</script>
+				</div>
+				
+				<div class="infodiv1"> <!--Contains other divs-->
+
+				<h2> Football Gear Page</h2>
+				
+
+					<h3> Below I have created a list of the most expensive pieces of gear and items needed to play football, there are 8 items here for you to choose from. </h3>
+					<p>  </p>
+				<input type="text" id="gear"/>
+					<button onclick="gear()">Input how many gears you would like to see 1-8.</button> <!-- prints amount of gears based on input -->
+					<p id="gear2"></p>
+
+
+				<p>The best location to buy football gear, DICKS Sporting Goods!  </p>
+				 <div id="map"></div>
+<script>
+      function initMap() {
+        var uluru = {lat: 39.8033, lng: -104.8885};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5HE1BTPCoYf2LaXduyvL50Thf5LhGOKU&callback=initMap">
+    </script>
+						
+ <div>				 
+
+
+
+</body>	
+</html>		
+ 
